@@ -50,4 +50,7 @@ jobs:
         script: |
           docker stop prova-pi
           docker rm --force prova-pi
-          docker run  -d -p 8080:8080 --name prova-pi hector0/prova-pi-ci:${{ github.sha }}
+          docker run -d -p 8080:8080 --name prova-pi \
+          --network rede \
+          -e DB_HOST=postgres-pi \
+          hector0/prova-pi-ci:${{ github.sha }}
