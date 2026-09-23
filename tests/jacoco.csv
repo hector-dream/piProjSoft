@@ -1,4 +1,14 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+,br.insper.piProjSoft.avaliacao,Avaliacao,0,7,0,0,0,3,0,1,0,1
+,br.insper.piProjSoft.avaliacao,AvaliacaoController,30,0,0,0,7,0,6,0,6,0
+,br.insper.piProjSoft.avaliacao,AvaliacaoService,24,132,4,12,5,35,4,13,1,8
+,br.insper.piProjSoft.avaliacao.exception,AvaliacaoAlreadyExistsException,3,0,0,0,1,0,1,0,1,0
+,br.insper.piProjSoft.avaliacao.exception,AvaliacaoWrongNotaException,3,0,0,0,1,0,1,0,1,0
+,br.insper.piProjSoft.avaliacao.exception,AvaliacaoErrorHandling,82,0,0,0,24,0,5,0,5,0
+,br.insper.piProjSoft.avaliacao.exception,AvaliacaoNotFoundException,0,3,0,0,0,1,0,1,0,1
 ,br.insper.piProjSoft,PiProjSoftApplication,8,0,0,0,3,0,2,0,2,0
+,br.insper.piProjSoft.avaliacao.dto,EditAvaliacaoDTO,0,3,0,0,0,1,0,1,0,1
+,br.insper.piProjSoft.avaliacao.dto,SaveAvaliacaoDTO,0,3,0,0,0,1,0,1,0,1
+,br.insper.piProjSoft.avaliacao.dto,ResponseAvaliacaoDTO,0,29,0,0,0,8,0,2,0,2
 ,br.insper.piProjSoft.common,GlobalErrorHandling,41,0,0,0,14,0,3,0,3,0
 ,br.insper.piProjSoft.common,ErrorDTO,0,3,0,0,0,1,0,1,0,1
